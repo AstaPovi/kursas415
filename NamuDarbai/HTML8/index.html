@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML8/ND</title>
+</head>
+<body>
+    <div>
+        <fieldset>
+        <legend>Jūsų informacija</legend>
+            <table>
+                <tr>
+                    <td>Vrdas: </td>
+                    <td><input type="text" name="firstname" value=""></td>
+                </tr>
+                <tr>
+                    <td>Pavardė: </td>
+                    <td><input type="text" name="lastname" value=""></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+        <legend>Klausimai</legend>
+            <div>
+                <label>Kaip sužinojote apie mus?</label>
+                <form>
+                  <select name="info">
+                    <option value="Google">Google</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Draugai">Draugai</option>
+                  </select>
+                 </form>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label>Apsilankysite vėl: </label>
+                <br>
+                Taip <input type="radio" name="apsilankysite" value="Taip">
+                Ne <input type="radio" name="apsilankysite" value="Ne">
+                Galbūt <input type="radio" name="apsilankysite" value="Galbūt">
+            </div>
+            <br>
+            <div>
+                <label>Ką manote apie kursą?</label>
+                <br>
+                <textarea name="comment" placeholder="Rašykite viską ką galvojate" rows="8" cols="80"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinę:</label>
+                <br>
+                <table>
+                  <tr>
+                      <td><input type="checkbox" name="programmingLanguage" value="C#"> C#</td>
+                      <td><input type="checkbox" name="programmingLanguage" value="JAVA"> JAVA</td>
+                      <td><input type="checkbox" name="programmingLanguage" value="PHP"> PHP</td>
+                  </tr>
+                  <tr>
+                      <td><input type="checkbox" name="programmingLanguage" value="HTML"> HTML</td>
+                      <td><input type="checkbox" name="programmingLanguage" value="CSS"> CSS</td>
+                      <td><input type="checkbox" name="programmingLanguage" value="JavaScript"> JavaScript</td>
+                  </tr>
+                  <tr>
+                      <td><input type="checkbox" name="programmingLanguage" value="Phyton"> Phyton</td>
+                      <td><input type="checkbox" name="programmingLanguage" value="Ruby"> Ruby</td>
+                  </tr>
+                </table>
+                <br>
+                <br>
+                <input type="submit" value="Siūsti">
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>
