@@ -1,0 +1,45 @@
+/*        basic/main things*/
+table{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+}
+td{
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+.black{
+    background: black;
+}
+.white{
+    background: white;
+}
+circle {
+    background: #7fee1d;
+    stroke: 3px black;
+}
+/*
+#box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #f00;
+    Margin: auto;
+    background-color: #fff;
+    border-spacing: 5px;
+    position: relative;
+    display: table;
+ }
+
+#box div{
+    width: 140px;
+    height: 140px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #fed;
+
+ }*/
