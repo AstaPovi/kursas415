@@ -1,0 +1,31 @@
+h1, h2, h3, p a {
+    color: #0088DD;
+}
+h1 {
+    font-family: Georgia, Times, serif;
+    text-shadow: 2px 2px #ACACAC;
+    font-weight: lighter;
+}
+h2 {
+    font-family: Georgia, Times, serif;
+    font-weight: lighter;
+}
+h3 {
+    font-family: Arial, Verdana, sans-serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+p, span {
+    color: #675544;
+    font-family: Arial, Verdana, sans-serif;
+    font-family: "Gill Sans", Arial, sans-serif;
+}
+p .pirma {
+    font-weight: bold;
+}
+p .antra {
+    font-weight: bold;
+}
+span {
+    font-style: italic;
+}
