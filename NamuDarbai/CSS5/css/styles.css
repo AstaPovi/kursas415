@@ -1,0 +1,30 @@
+table, th, td{
+    text-align: center;
+    width: 200px;
+}
+input{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    text-align: right;
+}
+table {
+    background-color: blue;
+}
+tr {
+    background-color: aquamarine;
+    width: 50px;
+}
+tr:first-child {
+    background-color: aqua;
+}
+.firstRow {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.zero {
+    text-align: left;
+    padding-left: 26px;
+}
+
