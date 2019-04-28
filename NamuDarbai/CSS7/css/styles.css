@@ -1,0 +1,59 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#calendar {
+	width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+tr, tbody {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+}
+
+td, th {
+	padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+    box-shadow: 3px 3px 1px #DEDEE0;
+}
+
+td {
+	min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    background: white;
+}
+
+.date {
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 4px;
+	color: #333;
+	width: 20px;
+    flex: 0 0 auto;
+    align-self: flex-start;
+}
+
+.event {
+  flex: 0 0 auto;
+	font-size: 13px;
+	padding: 5px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #BBB0DE;
+	color: black;
+}
+a:hover {
+    background-color: #9AC738;
+}
+
+.weekend {
+	background: #FFBB00;
+}
+
