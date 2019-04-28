@@ -1,0 +1,43 @@
+.container {
+    border-style: double;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+}
+h1 {
+    font-size: 32px;
+    line-height: 25px;
+
+}
+.the {
+    font-size: 18px;
+}
+.specialist{
+    font-size: 20px;
+}
+ul li {
+    display:inline;
+
+}
+ul{
+    padding: 0;
+}
+li {
+    padding: 15px;
+}
+li:nth-child(1) {
+    color: brown;
+}
+img, hr, p, ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+#dark {
+    border: 1px solid black;
+}
+img {
+    padding: 20px;
+}
