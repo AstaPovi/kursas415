@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS4|ND</title>
+</head>
+
+<body>
+
+    <main id="content"></main>
+    <button onclick="divideFunction();">Show result</button>
+
+    <script>
+
+        var firstNumber = 300;
+        var secondNumber = 20;
+        var result = 0;
+
+        function divideFunction() {
+            result = firstNumber / secondNumber;
+
+            alert(result);
+            document.getElementById("content").innerHTML = result;
+            console.log(result);
+        }
+
+    </script>
+
+</body>
+
+</html>
