@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS8|ND</title>
+</head>
+
+<body>
+    <main id="content"></main>
+    <button onclick="printArray()">Spausdinti</button>
+
+    <script>
+        var ourArray = ["Matas", "Tadas", "Lukas", "Rokas"];
+        var i = 0;
+        var ans = 0;
+
+        function printArray() {
+            for (i = 0; i < ourArray.length; i++){
+                ans = ourArray[i];
+
+                if (ourArray[i] !== "Lukas"){
+                console.log(ans);
+                }
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
