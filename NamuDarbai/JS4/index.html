@@ -9,7 +9,7 @@
 <body>
 
     <main id="content"></main>
-    <button onclick="divideFunction();">Show result</button>
+    <button onclick="finalResult();">Show result</button>
 
     <script>
 
@@ -17,11 +17,14 @@
         var secondNumber = 20;
         var result = 0;
 
-        function divideFunction() {
-            result = firstNumber / secondNumber;
+        function finalResult() {
 
-            alert(result);
-            document.getElementById("content").innerHTML = result;
+            function divideFunction() {
+                var result = firstNumber / secondNumber;
+                return result;
+             }
+            var result = divideFunction();
+
             console.log(result);
         }
 
