@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS6|ND</title>
+</head>
+
+<body>
+
+    <main id="info"></main>
+    <button onclick="check();">Paspausk</button>
+
+        <script>
+            function check(){
+                var age=parseInt(prompt("Įveskite savo amžių"));
+                var ans="negalite";
+
+                if(age>=18){
+                    ans="galite";
+                }
+
+                document.write("Jūs "+ans+" užeiti į svetainę");
+            }
+
+        </script>
+
+</body>
+
+</html>
