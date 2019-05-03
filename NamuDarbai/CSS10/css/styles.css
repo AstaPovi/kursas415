@@ -1,0 +1,37 @@
+#more {
+    display: none;
+}
+
+body {
+    width: 100%;
+}
+
+ .header, .first, .second, .third, .fourth, .fifth, .sixth, .seventh, .footer {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 2px gray;
+}
+
+.siblings {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+.siblings > div {
+    width: 45%;
+}
+
+.header {
+    text-align: right;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+     .header, .first, .second, .third, .fourth, .fifth, .sixth, .seventh, .footer {
+        width: 100%;
+        background-color: lightblue;
+    }
+}
