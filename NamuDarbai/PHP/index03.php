@@ -10,16 +10,21 @@ Skaičius galima naudoti tik kintamųjų reikšmėse, ne echo sakiniuose. Reikė
 <?php
     $x = 10;
     $y = 7;
-    $result;
 ?>
 
 <!DOCTYPE html>
 <html>
     <head></head>
     <body>
-        <a><?= $x. ' + '. $y. ' = ' . $result = $x + $y; ?></a><br>
-        <a><?= $x. ' - '. $y. ' = ' . $result = $x - $y; ?></a><br>
-        <a><?= $x. ' * '. $y. ' = ' . $result = $x * $y; ?></a><br>
-        <a><?= $x. ' / '. $y. ' = ' . $result = $x / $y; ?></a><br><a><?= $x. ' % '. $y. ' = ' . $result = $x % $y; ?></a><br>
+        <?php $result = $x + $y; ?>
+        <?= "$x + $y = $result"; ?><br>
+        <?php $result = $x - $y; ?>
+        <?= "$x - $y = $result"; ?><br>
+        <?php $result = $x * $y; ?>
+        <?= "$x * $y = $result"; ?><br>
+        <?php $result = $x / $y; ?>
+        <?= "$x / $y = $result"; ?><br>
+        <?php $result = $x % $y; ?>
+        <?= "$x % $y = $result"; ?><br>
     </body>
 </html>
