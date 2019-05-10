@@ -29,18 +29,22 @@
         <ul>
             <?php
                 foreach ($temperature as $temp) {
-                echo ($temp) .' ';
+                echo ($temp).', ';
                 }
             ?>
         </ul>
         <ul>Mažiausios temperatūros:
             <?php
-            print_r(array_slice($temperature, -5, 5));
+            $maziausios = array_slice($temperature, -5, 5);
+            echo $maziausios[4]. ', '. $maziausios[3]. ', '. $maziausios[2]. ', '. $maziausios[1]. ', '. $maziausios[0] ;
             ?>
         </ul>
         <ul>Didžiausios temperatūros:
             <?php
-            print_r(array_slice($temperature, 0, 5));
+            $didziausios =array_slice($temperature, 0, 5);
+            foreach ($didziausios as $max) {
+                echo ($max).', ';
+            }
             ?>
         </ul>
 
