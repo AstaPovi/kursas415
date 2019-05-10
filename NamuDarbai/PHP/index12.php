@@ -1,9 +1,9 @@
 <!--Sukurkite formą, kuri leis vartotojui įvesti savo vardą ir pavardę. Paspaudus mygtuką, šie duomenys turėtų būti išspausdinti naršyklėje.-->
 
 <?php
-    if(isset($_REQUEST['mygtukas'])) {
-        if($_REQUEST['vardas'] && $_REQUEST['pavarde']) {
-            echo 'Jūsų vardas: ' .$_REQUEST['vardas'].'<br>Jūsų pavardė: '. $_REQUEST['pavarde'];
+    if(isset($_POST['mygtukas'])) {
+        if($_POST['vardas'] && $_POST['pavarde']) {
+            echo 'Jūsų vardas: ' .$_POST['vardas'].'<br>Jūsų pavardė: '. $_POST['pavarde'];
             exit();
         } else {
             echo 'Įveskite savo vardą ir pavardę';
