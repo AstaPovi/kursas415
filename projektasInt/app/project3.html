@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Interjero puslapis</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="header">
+		<nav>
+			<div class="logo">
+				<a href="index.html">LOGO</a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="about.html">Kas mes</a>
+					</li>
+					<li>
+						<a href="allProjects.html">Darbai</a>
+					</li>
+					<li>
+						<a href="blog.html">Blogas</a>
+					</li>
+					<li>
+						<a href="contactForm.html">Susisiekime</a>
+					</li>
+				</ul>
+			</div>
+			<div class="menu-mobile">
+				<a class="dropbtn" onclick="menu()">Meniu</a>
+				<ul class="dropdown-content" id="myDropdown">
+					<li>
+						<a href="about.html">Kas mes</a>
+					</li>
+					<li>
+						<a href="allProjects.html">Darbai</a>
+					</li>
+					<li>
+						<a href="blog.html">Blogas</a>
+					</li>
+					<li>
+						<a href="contactForm.html">Susisiekime</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="large-header">
+		<h1 class="main-title">Interjero <i>XXX</i> studija</h1>
+	</div>
+	<main class="main-content">
+		<div class="container">
+			<h4>Ką mes veikiame</h4>
+			<h2>Projektas 3</h2>
+			<p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+			<div class="container-projects">
+				<div class="container-projects-clmn">
+				    <a href="project3.html"><img alt="Trečias projektas" src="images/3.jpg">
+					<div class="container-projects-info">
+						<h3>Trečiasis</h3>
+						<p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+					</div></a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h4>Kontaktai</h4>
+			<h2>Susisiekime</h2>
+			<div class="container-contact">
+				<div class="contact">
+					<div class="contact-content">
+						<h4>Adresas</h4><a>Panorama, Vilnius, Lietuva</a>
+					</div>
+				</div>
+				<div class="contact">
+					<div class="contact-content">
+						<h4>Telefonas</h4><a href="tel:+%20370%20614%2021943">+ 370 614 21943</a>
+					</div>
+				</div>
+				<div class="contact">
+					<div class="contact-content">
+						<h4>Elpastas</h4><a href="mailto:asta@gmail.com">asta@gmail.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer-content">
+			<div class="footer-clmn">
+				2019 Sukutra <a href="http://asta.com">Astos</a>
+			</div>
+			<div class="footer-clmn">
+				Elpastas: <a href="mailto:asta@gmail.com">asta@gmail.com</a>
+			</div>
+		</div>
+	</footer>
+	<script>
+         function menu() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
+         window.onclick = function(event) {
+           if (!event.target.matches('.dropbtn')) {
+             var dropdowns = document.getElementsByClassName("dropdown-content");
+             var i;
+             for (i = 0; i < dropdowns.length; i++) {
+               var openDropdown = dropdowns[i];
+               if (openDropdown.classList.contains('show')) {
+                 openDropdown.classList.remove('show');
+               }
+             }
+           }
+         }
+	</script>
+</body>
+</html>
